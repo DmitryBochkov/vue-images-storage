@@ -5,10 +5,13 @@
 </template>
 
 <script>
+  import { mapActions } from 'vuex'
+
   export default {
     name: 'AuthHandler',
+    methods: mapActions(['finilizeLogin']),
     created () {
-
+      this.finilizeLogin(window.location.hash)
     }
   }
 </script>
