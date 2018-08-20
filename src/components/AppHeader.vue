@@ -28,4 +28,7 @@
 </script>
 
 <style scoped>
+.pointing.menu {
+  padding: 0 5%;
+}
 </style>
